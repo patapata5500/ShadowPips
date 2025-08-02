@@ -1,15 +1,18 @@
-<!-- ShadowPips - index.html -->
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ShadowPips</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
-</head>
-<body>
-  <div id="chart" style="width: 100vw; height: 100vh;"></div>
-  <script type="module" src="main.js"></script>
-</body>
-</html>
+{
+  "name": "shadowpips",
+  "version": "1.0.0",
+  "description": "リアルタイムFXチャート & スキャルピング支援アプリ",
+  "main": "main.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "author": "あなたの名前",
+  "license": "MIT",
+  "dependencies": {
+    "echarts": "^5.5.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
